@@ -1,0 +1,1 @@
+Main page <?php echo $this->path; ?>

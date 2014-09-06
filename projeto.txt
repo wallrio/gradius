@@ -1,0 +1,95 @@
+
+	Requesito:
+	---------
+	
+		+ nodejs: (para instalar o bower)
+			baixe a versão binaria, atraves do site http://nodejs.org, descompacte em um diretório qualquer(fora de todos os projetos),
+			e execute o comando export para poder acessar o node de qualquer lugar, para isso, execute o comando 'export' no terminal, e copie
+			todo o conteudo da variavel PATH, agora rode o comando 'export PATH=cole_o_conteudo_copiado:caminho_para_o_node',
+			exemplo: export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/wallrio/meus_files/www/node/bin"
+			
+			OBS: faça a parte do export como root e como usuario.
+
+		+ bower: (para gerenciar as dependencias do projeto front-end)
+			execute o comando 'npm install -g bower' , para instalar o bower, caso queira instalar o bower apenas no diretório do projeto,
+			acesse o diretório do projeto e rode o comando sem o '-g', ex: 'npm install bower'
+
+
+
+	Preparando o projeto:
+	--------------------
+
+		+ bower:
+			acesse a pasta do projeto, e rode o comando 'bower init', apos ira abrir o wizard-setup do bower para gerar o arquivo bower.json,
+			apenas responda as perguntas.
+			em seguida edite o arquivo 'bower.json' e insira as dependencias, semelhante a linha abaixo:
+
+				"dependencies": {
+				"jquery": "~2.0.3",
+				"bootstrap" : "~3.2.0"
+				}
+			
+			para alterar o caminho de instalação das dependencias, crie um arquivo com o nome '.bowerrc' com o seguinte conteudo:
+
+			    {
+				    "directory":"public/components"
+			    }
+			
+			apos isso, execute o comando no terminal 'bower install', com isso o bower ira instalar as dependencias do projeto, que nesce caso
+			é o jquery
+
+			OBS: é necessário instalar as seguintes dependencias: jquery e bootstrap.
+
+
+
+
+
+
+	Banco de Dados
+	====================================
+
+
+	Tabela: usuários
+	
+		ID | nome | email | senha | data de nascimento | pais | estado | cidade | qualidade
+
+	
+	Tabela: politicos
+	
+		ID | Foto | Cargo | Partido | Mandato | Área de atuação | Estado | Cidade | qualidade
+
+	Tabela: postagens
+	
+		ID-Autor | data-postagem | Status | motivo-voto | votos | Msg | data da atividade
+
+
+
+
+	
+	Telas
+	================================================
+
+	Inicio - logoff
+		
+		+ Menu: loggon
+
+	Inicio - logon
+
+		+ Menu: home|Cadastro|Planos|NAS|Notas|Financeiro|Relatórios|Monitor|Configurações|Ajuda|Sobre|
+
+	Háverá uma barra que será exibida em todas as telas, nesta barra será exibida apenas informações essenciais como:
+		+ mensagens recebidas
+		+ Avisos
+
+	Háverá um menu na lateral, com as seguintes opções:
+		+ configurações
+		+ Edição do perfil
+		+ Fechar aplicativo
+		+ Logout
+		+ Sobre...
+
+	Háverá algumas telas disponiveis para o usuário acessar:
+
+	+ Inicio
+	+ Politicos
+	+ Usuários

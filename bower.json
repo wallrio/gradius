@@ -1,0 +1,26 @@
+{
+  "name": "gradius",
+  "version": "5.0.0",
+  "description": "gerenciador de RADIUS",
+  "main": "public/js/main.js",
+  "keywords": [
+    "gradius",
+    "radius"
+  ],
+  "authors": [
+    "Wallace Rio"
+  ],
+  "license": "MIT",
+  "homepage": "http://wallrio.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+ "dependencies": {
+	"jquery": "~2.0.3",
+	"bootstrap" : "~3.2.0"
+	}
+}

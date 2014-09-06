@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <name>portugues</name>    
+<string name="title">gradius</string>
+    
+    <string name="home">inicio</string>
+    <string name="help">ajuda</string>
+    <string name="logout">sair</string>
+    <string name="login">entrar</string>
+    
+    <string name="enter">entrar</string>
+    
+    <string name="email">email</string>
+    <string name="password">senha</string>
+    
+    <string name="registeruser">cadastro</string>
+    <string name="planuser">plano</string>
+    
+    <string name="configuration">configurações</string>
+    <string name="about">sobre</string>
+    
+    <string name="learnmore">ler mais</string>
+    <string name="descriptionmin">gerenciador de RADIUS</string>
+   <string name="start">inicio</string>
+   <string name="language">idioma</string>
+   <string name="version">versão</string>
+   <string name="year">ano</string>
+   <string name="author">autor</string>
+   
+</root>
