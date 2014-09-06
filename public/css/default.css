@@ -1,0 +1,47 @@
+body{
+    background: #f2f2f2;
+    height: 100%;
+    
+}
+
+#header{
+    padding: 0px;
+    
+}
+
+#content{
+       padding-bottom: 50px
+}
+
+#footer{
+    padding: 0px;
+    background: green;    
+}
+
+.contentvcenter{
+    
+}
+.jumbotron{
+    background: transparent;
+}
+
+p{
+    font-size: 14px; 
+    font-weight: normal;
+}
+.column{
+        padding: 20px;
+       
+       
+        
+        
+        
+    }
+    
+    .badge{
+        background: #005580;
+    }
+    
+    a{
+        cursor: pointer;
+    }
